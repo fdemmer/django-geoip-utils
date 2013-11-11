@@ -1,7 +1,7 @@
 import django
 
-# Django 1.6+ compatibility
-if django.VERSION >= (1, 6):
+# Django 1.4+ compatibility
+if django.VERSION >= (1, 4):
     from django.contrib.gis.geoip import GeoIP
 else:
     from django.contrib.gis.utils import GeoIP
